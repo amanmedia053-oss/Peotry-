@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Noto+Sans+Arabic:wght@400;500;600;700&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Noto Sans Arabic", "Inter", ui-sans-serif, system-ui, sans-serif;
+}
+
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+@layer base {
+  html, body {
+    @apply overflow-hidden h-full w-full fixed;
+  }
+  
+  #root {
+    @apply h-full w-full overflow-y-auto;
+    -webkit-overflow-scrolling: touch;
+  }
+}
