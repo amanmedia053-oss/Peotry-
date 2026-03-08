@@ -1003,7 +1003,7 @@ function AboutScreen({ t, themeColor, isDarkMode }: { t: any, themeColor: AppCol
       <div className={`p-8 rounded-3xl ${isDarkMode ? 'bg-gray-800' : 'bg-white'} shadow-sm space-y-6`}>
         <div>
           <h4 className="text-xs font-bold opacity-40 uppercase tracking-widest mb-1">{t.developer}</h4>
-          <p className="text-xl font-bold">عبيدالله غفاري</p>
+          <p className="text-xl font-bold">زينب محمدي </p>
         </div>
         <div>
           <h4 className="text-xs font-bold opacity-40 uppercase tracking-widest mb-1">{t.design}</h4>
